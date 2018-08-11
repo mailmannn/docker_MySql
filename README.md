@@ -14,7 +14,7 @@ The container is created with default values for the:
 - MYSQL_ROOT_PASSWORD - Docker-compose file;
 - MYSQL_DATABASE - Docker-compose file;
 
-The container exposes the 3306 Port and acept connections from any host. THIS SHOULD ONLY BE USED FOR DEV ENV, for prodction please take some security measures.
+The container exposes the 3306 Port and aceppts connections from any host. THIS SHOULD ONLY BE USED FOR DEV ENV, for prodction please take some security measures.
 
 Run:
 
@@ -22,4 +22,4 @@ Run:
 docker-compose up -d 
 ```
 
-**NOTE** since the volume is link to local folder in order to get persistency, if needed to change something on init script please delete the /data folder.
+**NOTE** since the volume is linked to local folder in order to get persistency, if you need to change something on init script please delete the /data folder.
